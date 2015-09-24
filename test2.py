@@ -4,6 +4,7 @@ import time
 # -*- coding: utf8 -*-
 __author__ = 'Михаил'
 
+
 # запрос ip устройства
 device_ip = input("Введите IP устройства: ")
 
