@@ -31,4 +31,4 @@ def open_telnet_conn(device_ip):
         connection = telnetlib.Telnet(device_ip, port, connection_timeout)
 
         # одидаем запроса логина
-        router_output = connection.read_until()
+        router_output = connection.read_until(111)
